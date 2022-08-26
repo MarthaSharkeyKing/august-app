@@ -7,7 +7,7 @@ export const fetchCompatability = (name1:string, name2:string) => {
     url: 'https://love-calculator.p.rapidapi.com/getPercentage',
     params: {sname: `${name1}`, fname: `${name2}`},
     headers: {
-      'X-RapidAPI-Key': 'ef34f65b76msh256db99cd04d037p16eff3jsn6cd194a360ca',
+      'X-RapidAPI-Key': 'KEY_GOES_HERE',
       'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com'
     }
   };
