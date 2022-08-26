@@ -1,9 +1,13 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import counterReducer from '../features/space/spaceSlice';
+import photoSelectorReducer from '../features/photoSelector/photoSelectorSlice';
+import loveCalculatorSlice from '../features/loveCalculator/loveCalculatorSlice';
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    photoSelector: photoSelectorReducer,
+    loveCalculator: loveCalculatorSlice
   },
 });
 
